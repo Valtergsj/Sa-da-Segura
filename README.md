@@ -7,7 +7,7 @@
 | Valter Geronimo da Silva Junior | [@usuario1] | Engenharia de Dados (Hub de Listas) | [RGM] |
 | [Nome do Integrante 2] | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | [RGM] |
 | [Nome do Integrante 3] | [@usuario3] | Ciência de Dados | [RGM] |
-| [Nome do Integrante 4] | [@usuario4] | Cibersegurança | [RGM] |
+| Gabriel Plácido da Silva| @placidogabriel788-glitch | Cibersegurança | 47770511 |
 
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
