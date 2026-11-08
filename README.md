@@ -4,7 +4,7 @@
 
 | Nome completo | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| Valter Geronimo da Silva Junior | [@usuario1] | Engenharia de Dados (Hub de Listas) | [RGM] |
+| Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | [RGM] |
 | [Nome do Integrante 2] | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | [RGM] |
 | [Nome do Integrante 3] | [@usuario3] | Ciência de Dados | [RGM] |
 | Gabriel Plácido da Silva| @placidogabriel788-glitch | Cibersegurança | 47770511 |
@@ -101,6 +101,11 @@ O **Saída Segura** é uma plataforma pública, contratada pela Secretaria de Pr
 6. Rafael pode apagar tudo a qualquer momento. Sem uso, os dados são apagados automaticamente após 90 dias.
 
 **Jornada 3 — Banco ou operadora.**
+
+1. A operadora assina a zona DNS de bloqueio (padrão RPZ), atualizada de forma incremental a cada 15 minutos e assinada digitalmente.
+2. O banco consulta a API de recebedores antes de concluir um Pix (ou carrega o arquivo incremental) e devolve ao Hub um **recibo de aplicação**: "versão 4.812 aplicada às 10h03".
+3. Se o banco identificar, nos próprios dados, um recebedor suspeito, envia ao Hub só o identificador do recebedor e um resumo da evidência. **Nunca envia dados de quem pagou.**
+
 
 1. A operadora assina a zona DNS de bloqueio (padrão RPZ), atualizada de forma incremental a cada 15 minutos e assinada digitalmente.
 2. O banco consulta a API de recebedores antes de concluir um Pix (ou carrega o arquivo incremental) e devolve ao Hub um **recibo de aplicação**: "versão 4.812 aplicada às 10h03".
