@@ -111,3 +111,88 @@ O **Saída Segura** é uma plataforma pública, contratada pela Secretaria de Pr
 2. O banco consulta a API de recebedores antes de concluir um Pix (ou carrega o arquivo incremental) e devolve ao Hub um **recibo de aplicação**: "versão 4.812 aplicada às 10h03".
 3. Se o banco identificar, nos próprios dados, um recebedor suspeito, envia ao Hub só o identificador do recebedor e um resumo da evidência. **Nunca envia dados de quem pagou.**
 
+### 2.2 Arquitetura
+
+```mermaid
+flowchart LR
+    subgraph Fontes["Fontes de entrada"]
+        D1["Denúncias do cidadão<br/>web, WhatsApp, 0800"]
+        D2["Ordens SPA/MF e Anatel"]
+        D3["Sinais dos bancos<br/>só recebedores"]
+        D4["Monitoramento de golpes<br/>CT logs, domínios novos"]
+    end
+
+    subgraph Hub["Hub de Listas"]
+        I["Entrada de dados e<br/>contratos de dados"]
+        B[("Camada bruta")]
+        P["Limpeza, deduplicação<br/>e resolução de entidades"]
+        S[("Camada tratada")]
+        ML["Classificador de risco<br/>só prioriza a fila"]
+        R["Fila de revisão humana<br/>analista SPA"]
+        G[("Listas oficiais<br/>versionadas")]
+        C["Canal de contestação"]
+    end
+
+    subgraph Saida["Distribuição"]
+        RPZ["Zona DNS RPZ<br/>assinada, a cada 15 min"]
+        API["API de recebedores<br/>mTLS"]
+        REC["Recibos de aplicação"]
+    end
+
+    subgraph Painel["Painel Minhas Dívidas"]
+        U["Cidadão via gov.br<br/>ou agente CRAS/Procon"]
+        OF["Open Finance<br/>fase 2"]
+        RG["Registrato<br/>Central de Autorizações"]
+        CO["Consolidação<br/>e regras de prioridade"]
+        PD[("Dados do cidadão<br/>criptografados, 90 dias")]
+        AJ["Links: Desenrola,<br/>bancos, SUS 136"]
+    end
+
+    D1 --> I
+    D2 --> I
+    D3 --> I
+    D4 --> I
+    I --> B --> P --> S
+    S --> ML --> R
+    R --> G
+    C --> R
+    G --> RPZ --> OP["Operadoras"]
+    G --> API --> BK["Bancos e IPs"]
+    OP --> REC
+    BK --> REC
+    REC --> G
+
+    U --> CO
+    OF --> CO
+    RG --> CO
+    CO --> PD
+    CO --> AJ
+```
+
+**Que dados entram, onde ficam e quem acessa**
+
+| Dado | De onde vem | Onde fica | Quem acessa |
+|---|---|---|---|
+| Domínios, URLs, capturas de tela, registros de certificado | Denúncias, SPA/Anatel, monitoramento | Camadas bruta e tratada do Hub (armazenamento de objetos em formato aberto, criptografado) | Equipe técnica e analistas SPA; operadoras recebem só a lista final |
+| Recebedores (CNPJ, chave Pix de recebimento, instituição) | SPA/MF, sinais dos bancos, denúncias | Camada tratada e lista oficial | Analistas SPA; bancos recebem só o identificador e o motivo da inclusão |
+| Texto da denúncia e contato opcional do denunciante | Cidadão | Camada bruta, separada do restante, com acesso restrito | Somente analistas SPA, com registro de acesso |
+| Dívidas do cidadão | Open Finance, Registrato ou digitação | Banco transacional do Painel, criptografado por usuário | **Somente o próprio cidadão** (e o agente CRAS durante o atendimento presencial, com consentimento na tela) |
+| Métricas agregadas (cliques em "preciso de ajuda", nº de painéis) | Painel | Repositório analítico, sem identificação | Gestão do programa, SPA, Ministério da Saúde |
+
+**Separação total entre os dois produtos:** o Hub e o Painel compartilham ferramentas e equipe, mas **não compartilham bancos de dados**. Não tem como cruzar "quem tem dívida" com "quem foi denunciado". Isso é uma regra de arquitetura (contas de nuvem, chaves de criptografia e permissões separadas), não só uma política.
+
+### 2.3 O trabalho de cada área
+
+#### Engenharia de Dados — Hub de Listas (Valter)
+
+É o coração da proposta: transformar uma operação manual de ofícios e planilhas num **produto de dados** com prazo, qualidade e rastreabilidade.
+
+- **Contratos de dados:** define o esquema de cada fonte (campos obrigatórios, formato do domínio normalizado, formato de CNPJ e chave Pix, nível de evidência). Fonte que não cumpre o contrato é rejeitada com mensagem clara, em vez de contaminar a lista.
+- **Ingestão (entrada dos dados):** conectores para formulário web, WhatsApp (API oficial), planilhas da SPA, ofícios da Anatel (API ou arquivo estruturado), feed de logs de Certificate Transparency e sinais dos bancos (API com mTLS).
+- **Arquitetura em camadas (lakehouse):** camada bruta imutável (tudo que entrou, como entrou), camada tratada (normalizado e deduplicado), camada oficial (o que foi aprovado por humano). Tabelas em formato aberto (Apache Iceberg) sobre armazenamento de objetos, o que dá **versionamento** e consulta ao estado da lista em qualquer data ("o que estava bloqueado em 10/10 às 14h?").
+- **Resolução de entidades:** liga domínio ↔ operador ↔ recebedor Pix ↔ CNPJ. Um mesmo operador ilegal pode ter centenas de domínios espelho; agrupá-los permite bloquear o grupo quando há evidência, e não um domínio por vez.
+- **Orquestração:** Apache Airflow em micro-lotes de 15 minutos (escolha justificada no quadro de decisões).
+- **Qualidade:** testes automáticos a cada lote (Great Expectations ou dbt tests): nenhum domínio de lista de proteção (gov.br, grandes portais de notícia e esporte, bancos) pode entrar na lista; nenhuma linha sem aprovação humana pode ir para a camada oficial; variação brusca de volume dispara alerta.
+- **Linhagem (de onde veio cada dado) e auditoria:** cada item da lista oficial carrega quem incluiu, quando, com qual evidência e qual analista aprovou (OpenLineage + trilha de auditoria imutável).
+- **Distribuição:** gera a zona RPZ incremental (IXFR) assinada com TSIG para operadoras e a API/arquivo incremental assinado para bancos. Recebe os **recibos de aplicação** e mede, por consumidor, o atraso entre publicação e aplicação.
+- **SLAs:** publicação em até 15 minutos após aprovação; disponibilidade da API de 99,9%; remoção da lista em até 1 hora quando uma contestação for aceita.
