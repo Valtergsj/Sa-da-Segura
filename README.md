@@ -4,7 +4,7 @@
 
 | Nome completo (ordem alfabética) | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| [Nome do Integrante 1] | [@usuario1] | Engenharia de Dados (Hub de Listas) | [RGM] |
+| Cauã Martins Aziago | cauaaziago20-creator | Engenharia de Dados (Hub de Listas) | [RGM] |
 | [Nome do Integrante 2] | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | [RGM] |
 | [Nome do Integrante 3] | [@usuario3] | Ciência de Dados | [RGM] |
 | Valter Geronimo da Silva Junior | Valter G. S. Junior | Engenharia de Dados | [RGM] |
