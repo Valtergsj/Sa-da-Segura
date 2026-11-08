@@ -7,7 +7,7 @@
 | Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
 | Gabriell Dos Santos Turuda Barbosa | gabriellturuda02-jpg | Engenharia de Dados (Painel de Dívidas) | 47964901 |
 | Cauã Martins Aziago | cauaaziago20-creator | Engenharia de Dados (Painel de Dívidas) | 48100170 |
-| Gabriel Plácido da Silva| @placidogabriel788-glitch | Cibersegurança | 47770511 |
+| Gabriel Plácido da Silva| placidogabriel788-glitch | Cibersegurança | 47770511 |
 
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
