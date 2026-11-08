@@ -5,7 +5,7 @@
 | Nome completo | GitHub | Área de carreira | RGM |
 |---|---|---|---|
 | Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
-| [Nome do Integrante 2] | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | [RGM] |
+| Gabriell Dos Santos Turuda Barbosa | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | 47964901 |
 | [Nome do Integrante 3] | [@usuario3] | Ciência de Dados | [RGM] |
 | Gabriel Plácido da Silva| @placidogabriel788-glitch | Cibersegurança | 47770511 |
 
