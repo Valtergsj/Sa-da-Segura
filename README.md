@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
 | Gabriell Dos Santos Turuda Barbosa | [@usuario2] | Engenharia de Dados (Painel de Dívidas) | 47964901 |
-| [Nome do Integrante 3] | [@usuario3] | Ciência de Dados | [RGM] |
+| Cauã Martins Aziago | cauaaziago20-creator | Engenharia de Dados (Painel de Dívidas) | 48100170 |
 | Gabriel Plácido da Silva| @placidogabriel788-glitch | Cibersegurança | 47770511 |
 
 
