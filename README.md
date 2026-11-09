@@ -11,9 +11,9 @@
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
 
-**Recorte:** ex-apostadores e seus familiares com renda de até 5 salários mínimos, na **etapa pós-proibição** (a partir da MP nº 1.394/2026). A solução cobre dois momentos dessa etapa: (1) impedir que essas pessoas caiam no mercado ilegal e nos golpes que surgiram com o fim das apostas, atacando o lado de **quem recebe o dinheiro** (domínios e recebedores de Pix), e (2) dar a elas uma visão consolidada das próprias dívidas, com caminho para renegociar e para pedir ajuda em saúde mental.
+**Recorte:** ex-apostadores e seus familiares com renda de até 5 salários mínimos, na etapa pós-proibição (a partir da MP nº 1.394/2026). A solução cobre dois momentos dessa etapa: (1) impedir que essas pessoas caiam no mercado ilegal e nos golpes que surgiram com o fim das apostas, atacando o lado de quem recebe o dinheiro (domínios e recebedores de Pix), e (2) dar a elas uma visão consolidada das próprias dívidas, com caminho para renegociar e para pedir ajuda em saúde mental.
 
-*Por que este recorte:* a faixa de até 5 salários mínimos é a mesma do Novo Desenrola Brasil – Famílias (MP nº 1.355/2026), o que permite ligar a solução a um programa público que já existe. E a etapa pós-proibição é onde o problema mudou de forma: o mercado regulado acabou, mas o ilegal e os golpes cresceram. Esse é o ponto em que a Engenharia de Dados, área central do grupo, faz mais diferença, porque o gargalo hoje é **mover listas e dados entre governo, bancos e operadoras com rapidez e confiança**.
+*Por que este recorte:* a faixa de até 5 salários mínimos é a mesma usada pelo Novo Desenrola Brasil – Famílias (MP nº 1.355/2026), programa de renegociação que terminou em agosto de 2026. Usar o mesmo critério deixa o Painel pronto para se ligar a um novo programa público de renegociação, quando o governo criar outro. E a etapa pós-proibição é onde o problema mudou de forma: o mercado regulado acabou, mas o ilegal e os golpes cresceram. Esse é o ponto em que a Engenharia de Dados, área central do grupo, faz mais diferença, porque o gargalo hoje é mover listas e dados entre governo, bancos e operadoras com rapidez e confiança.
 
 ---
 
@@ -29,13 +29,13 @@
 
 **A proibição mudou o problema, mas não o eliminou.** A MP nº 1.394, de 25/09/2026, proibiu a exploração, a oferta, a intermediação e a publicidade das apostas de quota fixa, cancelou as 85 licenças do setor e tirou os sites do ar a partir de 6 de outubro. Os números da transição mostram o tamanho do que ficou para trás:
 
-| O que | Número | Fonte |
-|---|---|---|
-| Saldo ainda a resgatar em 02/10/2026 | R$ 1,453 bilhão, distribuído entre 28,65 milhões de CPFs | Ministério da Fazenda (via ABCdoABC) |
-| Sites encaminhados para bloqueio desde a MP (até 09/10/2026) | 16.627 | Governo federal (via Band) |
-| Pedidos de bloqueio do Ministério da Fazenda desde dez/2024 | mais de 78 mil | Anatel e Senasp (via Teletime) |
-| Novos sites ilegais identificados entre 22 e 28/09/2026 | 6.401 (média de 914 por dia) | ANJL (via Sigma World) |
-| Queda no número de transações Pix desde a MP | 10% | Anatel e Senasp (via Teletime) |
+| O que | Número |
+|---|---|
+| Saldo ainda a resgatar em 02/10/2026 | R$ 1,453 bilhão, distribuído entre 28,65 milhões de CPFs |
+| Sites encaminhados para bloqueio desde a MP (até 09/10/2026) | 16.627 |
+| Pedidos de bloqueio do Ministério da Fazenda desde dez/2024 | mais de 78 mil |
+| Novos sites ilegais identificados entre 22 e 28/09/2026 | 6.401 (média de 914 por dia) |
+| Queda no número de transações Pix desde a MP | 10% |
 
 **Os golpes passaram a explorar o próprio fim das apostas.** Surgiram páginas que imitam o portal do governo e cobram taxa via Pix para "liberar" saldo de bets, páginas falsas que coletam CPF de apostadores, embora a devolução oficial seja automática pelos bancos, e falsas casas de aposta que prometem até R$ 3 mil a partir de um Pix de R$ 20 e depois travam o saque.
 
@@ -65,11 +65,11 @@
 | Decreto de jun/2026 e Portaria MF nº 1.766/2026 | Bloqueio de recursos de bets ilegais e responsabilidade tributária solidária das instituições financeiras | Cria a obrigação, mas não a infraestrutura de dados para os bancos saberem, a tempo, quais recebedores bloquear |
 | Plataforma Centralizada de Autoexclusão (dez/2025) | O apostador bloqueia o próprio acesso a sites **autorizados** | Com a proibição, não há mais sites autorizados; não alcança o mercado ilegal |
 | Registrato (Banco Central) | Extrato gratuito de empréstimos e contas | Atualização mensal; não calcula prioridade nem conecta à renegociação; barreira do gov.br prata/ouro |
-| Novo Desenrola Brasil – Famílias (MP nº 1.355/2026) | Descontos de até 90%, juros reduzidos e uso do FGTS para dívidas em atraso | O cidadão precisa ir a cada banco separadamente; não há visão única de quais dívidas são elegíveis |
+| Novo Desenrola Brasil – Famílias (MP nº 1.355/2026) | Ofereceu descontos de até 90%, juros reduzidos e uso do FGTS para dívidas em atraso | Terminou em agosto de 2026, quando a MP perdeu a validade. Enquanto existiu, o cidadão precisava ir a cada banco separadamente, sem uma visão única de quais dívidas eram elegíveis |
 | Teleatendimento SUS (Meu SUS Digital, telefone 136) | Cuidado em saúde mental para problemas com apostas | Pouco conhecido; não aparece no momento em que a pessoa olha as próprias dívidas |
 | Devolução automática de saldos pelos bancos | Devolve o saldo das bets encerradas | Abriu espaço para golpes de "falso resgate" que não têm canal rápido de derrubada |
 
-**O que falta e a proposta resolve:** as peças existem, mas não conversam. Falta uma **camada de dados confiável** que (a) transforme denúncias e ordens de bloqueio em listas padronizadas, versionadas e distribuídas em minutos para operadoras e bancos, e (b) junte, com consentimento, as dívidas do cidadão num só lugar e o leve até o Desenrola e até o SUS.
+**O que falta e a proposta resolve:** as peças existem, mas não conversam. Falta uma camada de dados confiável que (a) transforme denúncias e ordens de bloqueio em listas padronizadas, versionadas e distribuídas em minutos para operadoras e bancos, e (b) junte, com consentimento, as dívidas do cidadão num só lugar e o leve até os canais de renegociação dos bancos e até o SUS.
 
 ---
 
@@ -80,7 +80,7 @@
 O **Saída Segura** é uma plataforma pública, contratada pela Secretaria de Prêmios e Apostas do Ministério da Fazenda (SPA/MF) e operada em nuvem de governo, com dois produtos que compartilham a mesma base de engenharia de dados:
 
 - **Hub de Listas:** para operadoras, bancos e instituições de pagamento. Recebe denúncias, ordens de bloqueio e detecções, e publica duas listas oficiais: **domínios** de apostas ilegais e golpes, e **recebedores** (CNPJ e chaves Pix de recebimento) ligados a esses sites.
-- **Painel Minhas Dívidas:** para o cidadão. Mostra todas as dívidas numa tela, em linguagem simples, indica quais pagar primeiro, quais são elegíveis ao Desenrola e oferece ajuda em saúde mental. **Não oferece crédito.**
+- **Painel Minhas Dívidas:** para o cidadão. Mostra todas as dívidas numa tela, em linguagem simples, indica quais pagar primeiro, quais podem ser renegociadas e oferece ajuda em saúde mental. **Não oferece crédito.**
 
 **Jornada 1 — Dona Marta, 52 anos, filho ex-apostador, recebe mensagem de "resgate de saldo".**
 
@@ -94,19 +94,14 @@ O **Saída Segura** é uma plataforma pública, contratada pela Secretaria de Pr
 
 1. Acessa o Painel com a conta gov.br, ou vai a um CRAS ou Procon parceiro e é atendido por um agente com o tablet do programa.
 2. Escolhe como trazer as dívidas: autoriza o compartilhamento via **Open Finance** (fase 2), compartilha o relatório do **Registrato** pela Central de Autorizações do Banco Central ou digita os valores à mão.
-3. Vê uma tela única: quanto deve no total, quanto paga de juros por mês em cada dívida, quais estão em atraso e quais **parecem elegíveis ao Desenrola** (renda até 5 salários mínimos, atraso entre 90 dias e dois anos, contratada até 31/01/2026).
+3. Vê uma tela única: quanto deve no total, quanto paga de juros por mês em cada dívida, quais estão em atraso e quais **podem ser renegociadas**. Se houver um programa público de renegociação em vigor, o Painel também marca as dívidas que se encaixam nas regras dele (no Novo Desenrola, por exemplo, as regras eram renda de até 5 salários mínimos, atraso entre 90 dias e dois anos e contrato feito até 31/01/2026).
 4. O painel sugere uma ordem de prioridade com regra explicada (*"o rotativo do cartão cobra mais juros; comece por ele"*) e mostra o link oficial de renegociação de cada banco.
 5. Em todas as telas há o botão **"Quero parar de apostar / preciso de ajuda"**, que leva ao telefone 136 e ao teleatendimento do Meu SUS Digital, sem registrar nada de forma identificada.
 6. Rafael pode apagar tudo a qualquer momento. Sem uso, os dados são apagados automaticamente após 90 dias.
 
 **Jornada 3 — Banco ou operadora.**
 
-1. A operadora assina a zona DNS de bloqueio (padrão RPZ), atualizada de forma incremental a cada 15 minutos e assinada digitalmente.
-2. O banco consulta a API de recebedores antes de concluir um Pix (ou carrega o arquivo incremental) e devolve ao Hub um **recibo de aplicação**: "versão 4.812 aplicada às 10h03".
-3. Se o banco identificar, nos próprios dados, um recebedor suspeito, envia ao Hub só o identificador do recebedor e um resumo da evidência. **Nunca envia dados de quem pagou.**
-
-
-1. A operadora assina a zona DNS de bloqueio (padrão RPZ), atualizada de forma incremental a cada 15 minutos e assinada digitalmente.
+1. A operadora recebe a lista de bloqueio num formato que os servidores DNS dela já entendem (padrão RPZ), atualizada a cada 15 minutos só com o que mudou e assinada digitalmente.
 2. O banco consulta a API de recebedores antes de concluir um Pix (ou carrega o arquivo incremental) e devolve ao Hub um **recibo de aplicação**: "versão 4.812 aplicada às 10h03".
 3. Se o banco identificar, nos próprios dados, um recebedor suspeito, envia ao Hub só o identificador do recebedor e um resumo da evidência. **Nunca envia dados de quem pagou.**
 
@@ -133,8 +128,8 @@ flowchart LR
     end
 
     subgraph Saida["Distribuição"]
-        RPZ["Zona DNS RPZ<br/>assinada, a cada 15 min"]
-        API["API de recebedores<br/>mTLS"]
+        RPZ["Lista de bloqueio DNS<br/>assinada, a cada 15 min"]
+        API["API de recebedores<br/>conexão segura"]
         REC["Recibos de aplicação"]
     end
 
@@ -144,7 +139,7 @@ flowchart LR
         RG["Registrato<br/>Central de Autorizações"]
         CO["Consolidação<br/>e regras de prioridade"]
         PD[("Dados do cidadão<br/>criptografados, 90 dias")]
-        AJ["Links: Desenrola,<br/>bancos, SUS 136"]
+        AJ["Links: renegociação<br/>nos bancos, SUS 136"]
     end
 
     D1 --> I
@@ -187,18 +182,18 @@ flowchart LR
 É o coração da proposta: transformar uma operação manual de ofícios e planilhas num **produto de dados** com prazo, qualidade e rastreabilidade.
 
 - **Contratos de dados:** define o esquema de cada fonte (campos obrigatórios, formato do domínio normalizado, formato de CNPJ e chave Pix, nível de evidência). Fonte que não cumpre o contrato é rejeitada com mensagem clara, em vez de contaminar a lista.
-- **Ingestão (entrada dos dados):** conectores para formulário web, WhatsApp (API oficial), planilhas da SPA, ofícios da Anatel (API ou arquivo estruturado), feed de logs de Certificate Transparency e sinais dos bancos (API com mTLS).
-- **Arquitetura em camadas (lakehouse):** camada bruta imutável (tudo que entrou, como entrou), camada tratada (normalizado e deduplicado), camada oficial (o que foi aprovado por humano). Tabelas em formato aberto (Apache Iceberg) sobre armazenamento de objetos, o que dá **versionamento** e consulta ao estado da lista em qualquer data ("o que estava bloqueado em 10/10 às 14h?").
-- **Resolução de entidades:** liga domínio ↔ operador ↔ recebedor Pix ↔ CNPJ. Um mesmo operador ilegal pode ter centenas de domínios espelho; agrupá-los permite bloquear o grupo quando há evidência, e não um domínio por vez.
-- **Orquestração:** Apache Airflow em micro-lotes de 15 minutos (escolha justificada no quadro de decisões).
-- **Qualidade:** testes automáticos a cada lote (Great Expectations ou dbt tests): nenhum domínio de lista de proteção (gov.br, grandes portais de notícia e esporte, bancos) pode entrar na lista; nenhuma linha sem aprovação humana pode ir para a camada oficial; variação brusca de volume dispara alerta.
-- **Linhagem (de onde veio cada dado) e auditoria:** cada item da lista oficial carrega quem incluiu, quando, com qual evidência e qual analista aprovou (OpenLineage + trilha de auditoria imutável).
-- **Distribuição:** gera a zona RPZ incremental (IXFR) assinada com TSIG para operadoras e a API/arquivo incremental assinado para bancos. Recebe os **recibos de aplicação** e mede, por consumidor, o atraso entre publicação e aplicação.
+- **Ingestão (entrada dos dados):** conectores para formulário web, WhatsApp (API oficial), planilhas da SPA, ofícios da Anatel (API ou arquivo estruturado), registros públicos de certificados de sites novos (Certificate Transparency) e sinais dos bancos (por uma conexão segura em que os dois lados se identificam com certificado).
+- **Arquitetura em camadas:** camada bruta, que nunca é alterada (tudo que entrou, como entrou), camada tratada (dados padronizados e sem repetições) e camada oficial (o que foi aprovado por uma pessoa). As tabelas ficam num formato aberto que guarda todas as versões e permite consultar como a lista estava em qualquer data ("o que estava bloqueado em 10/10 às 14h?").
+- **Ligação entre os dados (resolução de entidades):** liga domínio ↔ operador ↔ recebedor Pix ↔ CNPJ. Um mesmo operador ilegal pode ter centenas de domínios espelho; agrupá-los permite bloquear o grupo quando há evidência, e não um domínio por vez.
+- **Execução automática:** uma ferramenta de agendamento (como o Apache Airflow) roda o processo em pequenos lotes a cada 15 minutos (escolha justificada no quadro de decisões).
+- **Qualidade:** testes automáticos a cada lote: nenhum domínio de lista de proteção (gov.br, grandes portais de notícia e esporte, bancos) pode entrar na lista; nenhuma linha sem aprovação humana pode ir para a camada oficial; variação brusca de volume dispara alerta.
+- **Linhagem (de onde veio cada dado) e auditoria:** cada item da lista oficial carrega quem incluiu, quando, com qual evidência e qual analista aprovou (registro de auditoria que não pode ser apagado nem alterado).
+- **Distribuição:** para as operadoras, gera a lista de bloqueio no formato que os servidores DNS delas já leem (padrão RPZ), enviando só o que mudou e com assinatura digital; para os bancos, gera uma API e um arquivo com as mudanças, também assinados. Recebe os recibos de aplicação e mede quanto tempo cada operadora e cada banco levou para aplicar a lista.
 - **SLAs:** publicação em até 15 minutos após aprovação; disponibilidade da API de 99,9%; remoção da lista em até 1 hora quando uma contestação for aceita.
 
 #### Engenharia de Dados — Painel Minhas Dívidas (Gabriell Dos Santos Turuda Barbosa)
 
-- **Integração com Open Finance (fase 2):** o Painel não pode ser receptor de dados sozinho, porque só instituições autorizadas participam do ecossistema. Proposta: uma **instituição financeira pública participante atua como receptora**, sob contrato que proíbe qualquer uso comercial dos dados (sem oferta de crédito, sem modelagem para venda). Integração no padrão de segurança FAPI exigido pelo ecossistema.
+- **Integração com Open Finance (fase 2):** o Painel não pode ser receptor de dados sozinho, porque só instituições autorizadas participam do ecossistema. Proposta: uma **instituição financeira pública participante atua como receptora**, sob contrato que proíbe qualquer uso comercial dos dados (sem oferta de crédito, sem modelagem para venda). A integração segue o padrão de segurança exigido pelo Open Finance.
 - **Integração com Registrato (fase 1):** o cidadão compartilha o relatório pela Central de Autorizações do Banco Central ou faz o upload do relatório. O pipeline extrai e normaliza as operações (tipo, credor, saldo, atraso).
 - **Modelo de dados canônico da dívida:** um esquema único (credor, modalidade, saldo devedor, taxa mensal, custo efetivo total quando disponível, dias de atraso, data de contratação, origem do dado e data da informação), independente de a dívida vir do Open Finance, do Registrato ou da digitação.
 - **Regras de prioridade e elegibilidade:** regras fixas, públicas e versionadas (não um modelo de aprendizado de máquina): ordenar por custo mensal e marcar as dívidas que podem ser renegociadas. Como as regras são versionadas, quando o governo criar um novo programa de renegociação (como foi o Novo Desenrola, encerrado em 31/08/2026), basta publicar uma nova versão com os critérios dele, sem mudar o pipeline. O Painel sempre avisa que a decisão final é do banco.
@@ -207,16 +202,16 @@ flowchart LR
 
 #### Ciência de Dados (Cauã Martins Aziago)
 
-- **Classificador de risco de domínios:** modelo leve (gradient boosting) com sinais como idade do domínio, padrão do nome (semelhança com marcas extintas e com "gov"), emissor e data do certificado, texto e elementos da página (termos de aposta, botões de depósito Pix), hospedagem compartilhada com domínios já confirmados. **O modelo só ordena a fila de revisão humana; ele nunca bloqueia nada sozinho.**
-- **Detecção de recebedores suspeitos, feita dentro de cada banco:** a consultoria entrega aos bancos um **modelo de referência** e um guia de sinais **do lado de quem recebe** (muitos pagadores distintos em pouco tempo, valores pequenos e repetidos, picos em horários de jogos, conta recém-aberta com volume alto). O banco roda o modelo nos próprios dados e envia ao Hub só o identificador do recebedor e a pontuação. O Hub nunca vê os pagadores.
+- **Classificador de risco de domínios:** modelo simples de classificação (do tipo gradient boosting, que aprende com exemplos já classificados pelos analistas), com sinais como idade do domínio, padrão do nome (semelhança com marcas extintas e com "gov"), emissor e data do certificado, texto e elementos da página (termos de aposta, botões de depósito Pix), hospedagem compartilhada com domínios já confirmados. **O modelo só ordena a fila de revisão humana; ele nunca bloqueia nada sozinho.**
+- **Detecção de recebedores suspeitos, feita dentro de cada banco:** a consultoria entrega aos bancos um modelo de referência e um guia de sinais do lado de quem recebe (muitos pagadores distintos em pouco tempo, valores pequenos e repetidos, picos em horários de jogos, conta recém-aberta com volume alto). O banco roda o modelo nos próprios dados e envia ao Hub só o identificador do recebedor e a pontuação. O Hub nunca vê os pagadores.
 - **Avaliação e viés:** mede precisão por tipo de site (para não penalizar portais legítimos de esporte, fantasy ou loterias oficiais da Caixa) e, no caso dos recebedores, mede quantos são pessoas físicas que podem ser "laranjas" ou vítimas, para que sejam encaminhadas a análise e orientação, e não a bloqueio automático.
 - **Monitoramento:** acompanha a deriva do modelo, isto é, a perda de acerto com o tempo (os operadores ilegais mudam de tática), e reajusta o modelo todo mês com os rótulos dados pelos analistas.
 - **O que a Ciência de Dados não faz, por decisão:** não dá nota de vulnerabilidade a ninguém, não calcula a "chance de apostar" de ninguém e não usa os dados do Painel para treinar modelo algum.
 
 #### Cibersegurança (Gabriel Plácido da Silva)
 
-- **Caça a golpes:** monitora logs de Certificate Transparency e registros de domínios novos em busca de nomes que imitam o governo, os bancos e as marcas extintas (typosquatting e troca de letras por outras parecidas, como "rn" no lugar de "m"), e pede a derrubada a registradores e provedores de hospedagem, além de incluir os domínios no Hub.
-- **Integridade das listas:** a lista oficial é o ativo mais sensível do sistema. Se um atacante incluir `seubanco.com.br` na lista, derruba um banco; se remover um site ilegal, reativa o golpe. Controles: assinatura digital de cada versão, chaves em HSM, aprovação em duas pessoas para entradas de alto impacto, lista de proteção que nunca pode ser bloqueada.
+- **Caça a golpes:** monitora os registros públicos de certificados de sites (Certificate Transparency) e os domínios recém-registrados em busca de nomes que imitam o governo, os bancos e as marcas extintas (a técnica chamada typosquatting, que troca letras por outras parecidas, como "rn" no lugar de "m"), e pede a derrubada a registradores e provedores de hospedagem, além de incluir os domínios no Hub.
+- **Integridade das listas:** a lista oficial é o ativo mais sensível do sistema. Se um atacante incluir `seubanco.com.br` na lista, derruba um banco; se remover um site ilegal, reativa o golpe. Controles: assinatura digital de cada versão, chaves guardadas num equipamento de segurança próprio para isso, aprovação em duas pessoas para entradas de alto impacto, lista de proteção que nunca pode ser bloqueada.
 - **Segurança do Painel:** login exclusivo pelo gov.br, criptografia por usuário, segredos em cofre, testes de invasão antes de cada lançamento, proteção contra extração em massa (limite de requisições).
 - **Antiphishing do próprio programa:** domínio único dentro do gov.br, comunicação padronizada (*"o Saída Segura nunca pede Pix, senha ou taxa"*), monitoramento de páginas que imitem o Painel.
 - **Resposta a incidentes e LGPD:** plano de resposta com comunicação à ANPD e aos titulares nos prazos da lei.
@@ -238,7 +233,7 @@ A Cibersegurança e a Ciência de Dados **geram sinais**; a Engenharia de Dados 
 ### 2.4 O que a tecnologia não resolve
 
 - **A compulsão.** O Painel aponta o caminho para o SUS, mas o tratamento depende de profissionais, da rede de atenção psicossocial e de financiamento, que a MP reduziu ao extinguir a destinação social das bets.
-- **O contorno técnico do bloqueio.** VPN, DNS alternativo e aplicativos distribuídos fora das lojas continuam funcionando. O Hub reduz o alcance e o tempo de vida dos sites; não os elimina. Por isso o foco no **dinheiro** (recebedores) é complementar ao foco nos domínios.
+- **O contorno técnico do bloqueio.** VPN, DNS alternativo e aplicativos distribuídos fora das lojas continuam funcionando. O Hub reduz o alcance e o tempo de vida dos sites; não os elimina. Por isso o foco no dinheiro (recebedores) é complementar ao foco nos domínios.
 - **Pagamentos fora do Pix.** Criptoativos e intermediários no exterior escapam das listas de recebedores nacionais e dependem de cooperação internacional e regulação de ativos virtuais.
 - **A decisão política e jurídica.** A MP pode caducar (perder a validade) se não for votada, e há ações no STF. A solução foi pensada para servir também a um possível mercado regulado (sites ilegais e golpes existiriam de qualquer forma), mas a continuidade dela depende do Congresso e do Supremo.
 - **Os juros.** O Painel mostra o custo; não o reduz. Taxas e regras do rotativo são política monetária e regulação do Conselho Monetário Nacional.
@@ -253,7 +248,7 @@ A Cibersegurança e a Ciência de Dados **geram sinais**; a Engenharia de Dados 
 
 | # | Risco | Classificação | Impacto (quem e quão grave) | Controle |
 |---|---|---|---|---|
-| 1 | O Hub virar instrumento de **vigilância das transações de toda a população** ("quem pagou Pix para onde") | Legal/privacidade | Toda a população com conta bancária. **Muito grave**: quebra de sigilo bancário, medo de usar o Pix, uso dos dados para outro fim | Arquitetura só aceita **identificadores de recebedores**; contrato de dados rejeita campos de pagador; auditoria externa a cada seis meses do esquema e dos registros de entrada de dados |
+| 1 | O Hub virar instrumento de **vigilância das transações de toda a população** ("quem pagou Pix para onde") | Legal/privacidade | Toda a população com conta bancária. **Muito grave**: quebra de sigilo bancário, medo de usar o Pix, uso dos dados para outro fim | Arquitetura só aceita identificadores de recebedores; contrato de dados rejeita campos de pagador; auditoria externa a cada seis meses do esquema e dos registros de entrada de dados |
 | 2 | **Bloqueio indevido** de site legítimo (portal de esportes, loja que divide servidor, loteria oficial) | Governança | Empresas e leitores afetados. **Alto**: prejuízo econômico e restrição de acesso à informação | Bloqueio só por domínio, nunca por IP; lista de proteção; revisão humana obrigatória; contestação com resposta em até 48h e remoção em 1h se o pedido for aceito |
 | 3 | **Pessoa física "laranja"** ou vítima marcada como recebedora de aposta ilegal | Viés/inclusão | Pessoas vulneráveis que cederam a conta, muitas de baixa renda. **Alto**: bloqueio de conta, perda de renda, estigma | Recebedor pessoa física nunca entra em bloqueio automático; vai para análise do banco com orientação e possibilidade de defesa; não gera negativação |
 | 4 | Dados do Painel usados para **oferecer crédito predatório** | Ético | Endividados, justamente o público vulnerável. **Muito grave**: piora o problema que a solução quer resolver | Contrato com a instituição receptora proíbe uso comercial; Painel sem anúncios nem ofertas; dados não saem do Painel; auditoria de acesso; métricas de sucesso não premiam contratação de crédito |
@@ -274,9 +269,9 @@ O problema é grave e atual: ~900 sites ilegais novos por dia, golpes que explor
 | Eixo | Controle | Quem faz | Como saber que foi cumprido |
 |---|---|---|---|
 | Transparência | Relatório público mensal: nº de domínios e recebedores incluídos e removidos, motivos por categoria, contestações e tempo de resposta. Página explicando, em linguagem simples, o que o Painel faz e o que não faz com os dados | Engenharia de Dados (Hub) + Gestão SPA | Relatório publicado até o dia 10 de cada mês; página aprovada em teste de compreensão com 20 usuários (≥ 80% entendem que o Painel não oferece crédito) |
-| Revisão humana | Nenhum item entra na lista oficial sem aprovação de analista da SPA; inclusões de alto impacto (domínios com mais de N acessos, recebedor pessoa física) exigem duas aprovações | Analistas SPA; regra implementada pela Engenharia de Dados | Teste automático que falha o lote se houver item sem aprovação; auditoria trimestral em amostra de 200 itens |
+| Revisão humana | Nenhum item entra na lista oficial sem aprovação de analista da SPA; inclusões de alto impacto (domínios muito acessados, recebedor pessoa física) exigem duas aprovações | Analistas SPA; regra implementada pela Engenharia de Dados | Teste automático que falha o lote se houver item sem aprovação; auditoria trimestral em amostra de 200 itens |
 | Minimização de dados | Contrato de dados do Hub sem nenhum campo de pagador; Painel com retenção de 90 dias e exclusão a pedido do usuário em 24h; métricas só agregadas | Engenharia de Dados (Hub e Painel) | Revisão do esquema por auditoria externa; relatório de exclusões executadas; teste que tenta enviar campo de pagador e confirma rejeição |
-| Segurança | Assinatura digital das listas com chaves em HSM; mTLS para bancos; criptografia por usuário no Painel; teste de invasão independente antes do lançamento | Cibersegurança | Laudo de teste de invasão sem vulnerabilidade crítica ou alta em aberto; verificação de assinatura obrigatória documentada por todas as operadoras do piloto |
+| Segurança | Assinatura digital das listas com chaves guardadas em equipamento de segurança; conexão com certificado dos dois lados para os bancos; criptografia por usuário no Painel; teste de invasão independente antes do lançamento | Cibersegurança | Laudo de teste de invasão sem vulnerabilidade crítica ou alta em aberto; verificação de assinatura obrigatória documentada por todas as operadoras do piloto |
 | Teste de viés | Avaliação do classificador por categoria de site (esporte, notícia, loteria oficial, pequeno comércio) e da proporção de recebedores pessoa física sinalizados por região | Ciência de Dados | Taxa de falso positivo de nenhuma categoria acima de 2× a média; relatório de viés anexado a cada nova versão do modelo |
 | Canal de contestação | Formulário e telefone para donos de sites e titulares de contas contestarem inclusões; resposta em até 48h; remoção em 1h se o pedido for aceito; ouvidoria independente da equipe técnica | Gestão SPA + Ouvidoria do MF; fluxo implementado pela Engenharia de Dados | Painel interno com prazo de cada contestação; ≥ 95% respondidas em até 48h; relatório incluído na transparência mensal |
 
@@ -297,9 +292,9 @@ O problema é grave e atual: ~900 sites ilegais novos por dia, golpes que explor
 
 ### 3.5 Comunicado público
 
-> A [Consultoria] desenvolveu o Saída Segura com a Secretaria de Prêmios e Apostas. Ele faz duas coisas: distribui a bancos e operadoras, em minutos, a lista de sites de apostas ilegais, golpes e recebedores de Pix ligados a eles; e mostra ao cidadão, com consentimento, todas as suas dívidas em um só lugar, com caminho para renegociar e para pedir ajuda ao SUS. Não monitoramos quem paga, não vendemos crédito e todo bloqueio passa por revisão humana e pode ser contestado. Bloqueio não acaba com VPN nem trata a compulsão: isso exige cuidado e política pública.
+> Nossa equipe desenvolveu o Saída Segura com a Secretaria de Prêmios e Apostas. Ele faz duas coisas: distribui a bancos e operadoras, em minutos, a lista de sites de apostas ilegais, golpes e recebedores de Pix ligados a eles; e mostra ao cidadão, com consentimento, todas as suas dívidas em um só lugar, com caminho para renegociar e para pedir ajuda ao SUS. Não monitoramos quem paga, não vendemos crédito e todo bloqueio passa por revisão humana e pode ser contestado. Bloqueio não acaba com VPN nem trata a compulsão: isso exige cuidado e política pública.
 
-**Contagem:** 562 caracteres (com espaços)
+**Contagem:** 559 caracteres (com espaços)
 
 ---
 
@@ -321,7 +316,7 @@ O problema é grave e atual: ~900 sites ilegais novos por dia, golpes que explor
 
 ### 4.2 Requisitos de acessibilidade
 
-Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão. Cada requisito tem um critério de aceite testável.
+Os requisitos seguem a WCAG 2.2, nível AA, e a Lei Brasileira de Inclusão. Cada requisito tem um critério de aceite testável.
 
 | # | Requisito | Critério WCAG 2.2 | Como testar |
 |---|---|---|---|
@@ -351,8 +346,8 @@ Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão.
 **Escolhas para reduzi-lo:**
 
 - **Micro-lotes de 15 minutos em vez de streaming contínuo.** Um cluster de streaming fica ligado 24 horas por dia; micro-lotes usam recursos só durante o processamento. 15 minutos atendem ao objetivo (o gargalo atual é de dias, não de segundos).
-- **Distribuição incremental.** Operadoras e bancos recebem só o que mudou desde a última versão (IXFR no DNS, arquivo diferencial na API), e não a lista inteira a cada ciclo, o que reduz tráfego e processamento nos dois lados.
-- **Modelo pequeno em vez de modelo de linguagem grande.** O classificador de domínios é um gradient boosting que treina em minutos numa CPU comum. Um LLM para classificar cada página consumiria muito mais energia sem ganho proporcional para uma tarefa de priorização.
+- **Distribuição incremental.** Operadoras e bancos recebem só o que mudou desde a última versão (tanto na lista de DNS quanto no arquivo da API), e não a lista inteira a cada ciclo, o que reduz tráfego e processamento nos dois lados.
+- **Modelo pequeno em vez de modelo de linguagem grande.** O classificador de domínios é um modelo simples que treina em minutos numa CPU comum. Um LLM para classificar cada página consumiria muito mais energia sem ganho proporcional para uma tarefa de priorização.
 - **Retenção curta e camadas de armazenamento.** Os dados do Painel são apagados em 90 dias; capturas de tela antigas do Hub vão para armazenamento frio após 6 meses e são apagadas após o prazo de auditoria.
 - **Ajuste automático de capacidade.** Os servidores do Painel diminuem de madrugada, quando o uso é baixo.
 - **Infraestrutura existente.** A operação usa a nuvem de governo já contratada (Serpro ou Dataprev), sem compra de servidores novos. Os tablets para CRAS e Procon vêm de equipamentos já existentes nesses órgãos ou de doações de equipamentos reformados, com descarte por programa de logística reversa certificado.
@@ -363,15 +358,17 @@ Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão.
 - **Quem mantém:** no primeiro ano, a consultoria constrói e opera junto com uma equipe da SPA/MF e da empresa pública de tecnologia (Serpro ou Dataprev). A partir do mês 9 começa a transferência de conhecimento; no mês 13, a operação passa toda para a equipe pública, com a consultoria em suporte por mais 6 meses.
 - **Quem paga:** orçamento da SPA/MF. Como a MP extinguiu as receitas de destinação social das bets, a proposta sugere ao governo usar parte do dinheiro das multas aplicadas a operadores ilegais e a instituições que descumpram as listas (a MP prevê multa de até R$ 2 bilhões por infração). A integração das listas é obrigação legal dos bancos e operadoras, que pagam o próprio custo de uso.
 - **Depois do primeiro ano:**
-  - O código do Hub e do Painel é publicado como **software público**, permitindo auditoria e reaproveitamento (por exemplo, por estados e Procons).
-  - Um **comitê de governança** (SPA/MF, Banco Central, Anatel, Ministério da Saúde, Procon, representante da sociedade civil) revisa a cada seis meses as regras de inclusão e o relatório de transparência.
-  - Se a MP não for convertida em lei, o Hub continua útil contra **golpes financeiros** e contra operadores sem autorização em um possível mercado regulado; o Painel continua útil para qualquer família endividada. O desenho não depende da proibição para fazer sentido.
+  - O código do Hub e do Painel é publicado como software público, permitindo auditoria e reaproveitamento (por exemplo, por estados e Procons).
+  - Um comitê de governança (SPA/MF, Banco Central, Anatel, Ministério da Saúde, Procon, representante da sociedade civil) revisa a cada seis meses as regras de inclusão e o relatório de transparência.
+  - Se a MP não for convertida em lei, o Hub continua útil contra golpes financeiros e contra operadores sem autorização em um possível mercado regulado; o Painel continua útil para qualquer família endividada. O desenho não depende da proibição para fazer sentido.
 
 ---
 
 ## 6. Impacto esperado
 
 ### 6.1 Indicadores
+
+As metas abaixo foram definidas pelo grupo como ponto de partida para o piloto e devem ser revistas com os dados reais dos primeiros meses.
 
 | Indicador | Como medir | Meta | Prazo |
 |---|---|---|---|
@@ -400,7 +397,7 @@ Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão.
 
 | Risco de não pegar | Sinal | O que fazer |
 |---|---|---|
-| Operadoras pequenas não integram a zona RPZ | Recibos de aplicação ausentes de provedores regionais (o Brasil tem milhares de provedores pequenos) | Oferecer servidor DNS recursivo público com a lista já aplicada e um guia de configuração de 1 página; apoiar via associações de provedores; Anatel cobra pela obrigação |
+| Operadoras pequenas não aplicam a lista de bloqueio | Recibos de aplicação ausentes de provedores regionais (o Brasil tem milhares de provedores pequenos) | Oferecer servidor DNS recursivo público com a lista já aplicada e um guia de configuração de 1 página; apoiar via associações de provedores; Anatel cobra pela obrigação |
 | Bancos não usam a lista de recebedores ou usam tarde | Atraso de aplicação acima da meta | Relatório com o nome de cada instituição para o Banco Central e a SPA; lembrar da responsabilidade tributária solidária |
 | Público não confia no Painel ("é golpe") | Baixa adesão, muitas desistências no login | Divulgação pelos canais oficiais e pelo app do banco do próprio cidadão; atendimento presencial; apoio de Procons e da rede de saúde |
 | O Painel é usado, mas ninguém renegocia | Muitos painéis, pouca renegociação declarada | Entrevistar usuários; testar ligação direta com o canal de renegociação dos principais bancos |
@@ -421,7 +418,7 @@ Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão.
 | **Painel começa com Registrato e digitação; Open Finance entra na fase 2 via instituição pública receptora** | (a) Open Finance desde o início; (b) pedir senhas dos bancos (screen scraping); (c) só digitação | (a) exige contrato com instituição participante e homologação, o que atrasaria o piloto; (b) é inseguro e incompatível com as regras do ecossistema; (c) é trabalhosa e sujeita a erro. Começar com o Registrato entrega valor rápido e o Open Finance amplia depois |
 | **Regras fixas e públicas para prioridade e elegibilidade de dívidas, sem modelo de vulnerabilidade** | Modelo de aprendizado de máquina que estima "risco de superendividamento" | Uma nota de vulnerabilidade é exatamente o que pode ser usado para vender crédito predatório. Regras públicas ("pague primeiro o juro mais caro") são explicáveis e suficientes |
 | **Hub e Painel com bancos de dados, contas e chaves separados** | Uma base única para os dois produtos | Uma base única tornaria possível cruzar "quem deve" com "quem foi denunciado". A separação física impede esse uso, mesmo com mudança de gestão |
-| **Nuvem de governo (Serpro/Dataprev) com formatos abertos (Iceberg)** | (a) Grande nuvem comercial (AWS, Azure, Google Cloud) contratada direto; (b) servidores próprios da SPA | (a) levanta questões de soberania e dependência de fornecedor; (b) exigiria comprar hardware e equipe de data center. A nuvem de governo já existe e já é contratada; formatos abertos evitam ficar preso a um fornecedor |
+| **Nuvem de governo (Serpro/Dataprev) com formatos abertos de dados** | (a) Grande nuvem comercial (AWS, Azure, Google Cloud) contratada direto; (b) servidores próprios da SPA | (a) levanta questões de soberania e dependência de fornecedor; (b) exigiria comprar hardware e equipe de data center. A nuvem de governo já existe e já é contratada; formatos abertos evitam ficar preso a um fornecedor |
 | **Web acessível + WhatsApp + telefone + presencial, sem aplicativo nativo próprio** | Aplicativo próprio para Android e iOS | Um app novo exige instalação, ocupa memória de celulares simples e vira alvo de imitação. Canais que a população já usa alcançam mais gente com menos custo |
 
 ## 8. Capítulos individuais
@@ -455,9 +452,9 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 **Feedback dos colegas**
 
-[Revisar em grupo:] Foi quem mais pesquisou sobre como o bloqueio de sites funciona na prática, e o diagrama ajudou todo mundo a entender a proposta. Como sugestão, achamos que vale treinar a explicação do diagrama em voz alta antes da arguição, porque é a parte que o professor mais deve perguntar. Também sugerimos começar pelo SQL antes de partir para ferramentas maiores, já que quase tudo em Engenharia de Dados depende dele.
+Foi quem mais pesquisou sobre como o bloqueio de sites funciona na prática, e o diagrama ajudou todo mundo a entender a proposta. Como sugestão, achamos que vale treinar a explicação do diagrama em voz alta antes da arguição, porque é a parte que o professor mais deve perguntar. Também sugerimos começar pelo SQL antes de partir para ferramentas maiores, já que quase tudo em Engenharia de Dados depende dele.
 
-### 8.2 Cauã Martins Aziago — Engenharia de Dados (Painel Minhas Dívidas)
+### 8.2 Gabriell Dos Santos Turuda Barbosa — Engenharia de Dados (Painel Minhas Dívidas)
 
 **Papel no projeto:** pesquisou os dados de endividamento das famílias (Peic/CNC), o Registrato, o Open Finance e o Novo Desenrola, e descobriu que o programa tinha perdido a validade em agosto de 2026, o que mudou o desenho do Painel. Montou as jornadas do usuário (Dona Marta e Rafael) e a ideia de juntar as dívidas da pessoa numa só tela. Escreveu as seções 1.1 (quem é afetado), 1.3 (o que já existe), 2.1 (a solução do ponto de vista do usuário), 2.3 (Engenharia de Dados – Painel) e a tabela de LGPD (seção 3.4).
 
@@ -483,7 +480,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 **Feedback dos colegas**
 
-[Revisar em grupo:] Trouxe o olhar de quem vai usar o sistema, e as jornadas deixaram a proposta mais humana e fácil de entender. Ter encontrado a informação de que o Desenrola acabou salvou o trabalho de um erro sério. Como sugestão, achamos que vale estudar um pouco mais como o Open Finance funciona por dentro, porque é uma pergunta provável na arguição, e manter o hábito de sempre conferir se a informação ainda vale na data de hoje.
+Trouxe o olhar de quem vai usar o sistema, e as jornadas deixaram a proposta mais humana e fácil de entender. Ter encontrado a informação de que o Desenrola acabou salvou o trabalho de um erro sério. Como sugestão, achamos que vale estudar um pouco mais como o Open Finance funciona por dentro, porque é uma pergunta provável na arguição, e manter o hábito de sempre conferir se a informação ainda vale na data de hoje.
 
 ### 8.3 Cauã Martins Aziago — Ciência de Dados
 
@@ -512,7 +509,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 **Feedback dos colegas**
 
-[Revisar em grupo:] Foi firme nas decisões éticas, e isso deixou a análise ética do trabalho mais forte e coerente. Como sugestão, achamos que vale treinar a explicação de por que o banco analisa só quem recebe o Pix e não quem paga, porque é o ponto mais delicado da proposta. Também sugerimos começar pelo Python e pela análise de dados antes de partir para modelos, para ter uma base sólida.
+Foi firme nas decisões éticas, e isso deixou a análise ética do trabalho mais forte e coerente. Como sugestão, achamos que vale treinar a explicação de por que o banco analisa só quem recebe o Pix e não quem paga, porque é o ponto mais delicado da proposta. Também sugerimos começar pelo Python e pela análise de dados antes de partir para modelos, para ter uma base sólida.
 
 ### 8.4 Gabriel Plácido da Silva — Cibersegurança
 
@@ -541,7 +538,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 **Feedback dos colegas**
 
->Trouxe para o grupo a preocupação com golpes e com a segurança da própria solução, algo em que ninguém tinha pensado no começo. Também assumiu as seções de acessibilidade e sustentabilidade com cuidado. Como sugestão, achamos que vale estudar os fundamentos de redes logo no começo, porque eles ajudam a entender quase tudo em segurança, e anotar as fontes de cada informação enquanto pesquisa, para facilitar na hora de montar as referências.
+Trouxe para o grupo a preocupação com golpes e com a segurança da própria solução, algo em que ninguém tinha pensado no começo. Também assumiu as seções de acessibilidade e sustentabilidade com cuidado. Como sugestão, achamos que vale estudar os fundamentos de redes logo no começo, porque eles ajudam a entender quase tudo em segurança, e anotar as fontes de cada informação enquanto pesquisa, para facilitar na hora de montar as referências.
 
 ---
 
@@ -584,3 +581,4 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 - Garrastazu Advogados. *A proibição das bets já vale?* 2026. https://garrastazu.adv.br/a-proibicao-das-bets-ja-vale
 - Brasil. *Lei nº 13.709, de 14 de agosto de 2018* (Lei Geral de Proteção de Dados Pessoais). Versão vigente. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
 - Brasil. *Lei nº 12.965, de 23 de abril de 2014* (Marco Civil da Internet). Versão vigente. https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm
+
