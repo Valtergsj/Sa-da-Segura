@@ -525,7 +525,7 @@ Foi firme nas decisões éticas, e isso deixou a análise ética do trabalho mai
 | Reconhecer golpes e sites falsos (phishing) | Técnica | Parcial |
 | Noções de criptografia e senhas seguras | Técnica | Não |
 | Linux básico (terminal) | Técnica | Não |
-| Noções de acessibilidade digital (WCAG) | Técnica | Parcial (estudou para este trabalho) |
+| Noções de acessibilidade digital (WCAG) | Técnica | Parcial |
 | Atenção a detalhes | Comportamental | Sim |
 | Calma e clareza para explicar riscos | Comportamental | Parcial |
 
