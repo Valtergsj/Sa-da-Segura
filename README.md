@@ -17,7 +17,7 @@
 
 ---
 
-## 1. Análise do problem
+## 1. Análise do problema
 
 ### 1.1 Quem é afetado, onde e quanto
 
