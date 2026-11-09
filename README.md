@@ -4,9 +4,9 @@
 
 | Nome completo | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| Cauã Martins Aziago | cauaaziago20-creator | Engenharia de Dados (Painel de Dívidas) | 48100170 |
+| Cauã Martins Aziago | cauaaziago20-creator | Ciência de Dados | 48100170 |
 | Gabriell Dos Santos Turuda Barbosa | gabriellturuda02-jpg | Engenharia de Dados (Painel de Dívidas) | 47964901 |
-| Gabriel Plácido da Silva| placidogabriel788-glitch | Cibersegurança | 47770511 |
+| Gabriel Plácido da Silva | placidogabriel788-glitch | Cibersegurança | 47770511 |
 | Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
@@ -196,7 +196,7 @@ flowchart LR
 - **Distribuição:** gera a zona RPZ incremental (IXFR) assinada com TSIG para operadoras e a API/arquivo incremental assinado para bancos. Recebe os **recibos de aplicação** e mede, por consumidor, o atraso entre publicação e aplicação.
 - **SLAs:** publicação em até 15 minutos após aprovação; disponibilidade da API de 99,9%; remoção da lista em até 1 hora quando uma contestação for aceita.
 
-#### Engenharia de Dados — Painel Minhas Dívidas (Cauã Martins Aziago)
+#### Engenharia de Dados — Painel Minhas Dívidas (Gabriell Dos Santos Turuda Barbosa)
 
 - **Integração com Open Finance (fase 2):** o Painel não pode ser receptor de dados sozinho, porque só instituições autorizadas participam do ecossistema. Proposta: uma **instituição financeira pública participante atua como receptora**, sob contrato que proíbe qualquer uso comercial dos dados (sem oferta de crédito, sem modelagem para venda). Integração no padrão de segurança FAPI exigido pelo ecossistema.
 - **Integração com Registrato (fase 1):** o cidadão compartilha o relatório pela Central de Autorizações do Banco Central ou faz o upload do relatório. O pipeline extrai e normaliza as operações (tipo, credor, saldo, atraso).
@@ -205,7 +205,7 @@ flowchart LR
 - **Retenção e exclusão:** rotina diária que apaga dados de usuários sem acesso há 90 dias e executa pedidos de exclusão em até 24 horas, com prova (registro de exclusão sem o conteúdo).
 - **Métricas agregadas:** pipeline separado que produz só contagens (painéis criados, % com dívida que pode ser renegociada, cliques em ajuda) para a gestão, sem identificação.
 
-#### Ciência de Dados ([Integrante 3])
+#### Ciência de Dados (Cauã Martins Aziago)
 
 - **Classificador de risco de domínios:** modelo leve (gradient boosting) com sinais como idade do domínio, padrão do nome (semelhança com marcas extintas e com "gov"), emissor e data do certificado, texto e elementos da página (termos de aposta, botões de depósito Pix), hospedagem compartilhada com domínios já confirmados. **O modelo só ordena a fila de revisão humana; ele nunca bloqueia nada sozinho.**
 - **Detecção de recebedores suspeitos, feita dentro de cada banco:** a consultoria entrega aos bancos um **modelo de referência** e um guia de sinais **do lado de quem recebe** (muitos pagadores distintos em pouco tempo, valores pequenos e repetidos, picos em horários de jogos, conta recém-aberta com volume alto). O banco roda o modelo nos próprios dados e envia ao Hub só o identificador do recebedor e a pontuação. O Hub nunca vê os pagadores.
@@ -213,7 +213,7 @@ flowchart LR
 - **Monitoramento:** acompanha a deriva do modelo, isto é, a perda de acerto com o tempo (os operadores ilegais mudam de tática), e reajusta o modelo todo mês com os rótulos dados pelos analistas.
 - **O que a Ciência de Dados não faz, por decisão:** não dá nota de vulnerabilidade a ninguém, não calcula a "chance de apostar" de ninguém e não usa os dados do Painel para treinar modelo algum.
 
-#### Cibersegurança ([Integrante 4])
+#### Cibersegurança (Gabriel Plácido da Silva)
 
 - **Caça a golpes:** monitora logs de Certificate Transparency e registros de domínios novos em busca de nomes que imitam o governo, os bancos e as marcas extintas (typosquatting e troca de letras por outras parecidas, como "rn" no lugar de "m"), e pede a derrubada a registradores e provedores de hospedagem, além de incluir os domínios no Hub.
 - **Integridade das listas:** a lista oficial é o ativo mais sensível do sistema. Se um atacante incluir `seubanco.com.br` na lista, derruba um banco; se remover um site ilegal, reativa o golpe. Controles: assinatura digital de cada versão, chaves em HSM, aprovação em duas pessoas para entradas de alto impacto, lista de proteção que nunca pode ser bloqueada.
@@ -428,7 +428,7 @@ Os requisitos seguem a **WCAG 2.2, nível AA**, e a Lei Brasileira de Inclusão.
 
 Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Cada um escolheu a área de carreira em que quer se especializar e ficou com a parte da proposta ligada a ela. Por isso, nos planos abaixo, a maioria das competências técnicas aparece como "Não" ou "Parcial": a proposta mostra o que um profissional dessas áreas faria, e as metas mostram o caminho que cada um de nós precisa seguir para chegar lá.
 
-### 8.1 [Nome do Integrante 1] — Engenharia de Dados (Hub de Listas)
+### 8.1 Valter Geronimo da Silva Junior — Engenharia de Dados (Hub de Listas)
 
 **Papel no projeto:** pesquisou como funciona hoje o bloqueio de sites de apostas (os pedidos da Fazenda, as ordens da Anatel e o volume de sites novos por dia) e, a partir disso, montou a ideia do Hub de Listas: de onde vêm os dados, como eles são limpos e aprovados e como chegam às operadoras e aos bancos. Escreveu as seções 1.2 (causas tecnológicas), 2.2 (arquitetura e diagrama em Mermaid), 2.3 (Engenharia de Dados – Hub) e as decisões sobre bloqueio por DNS, micro-lotes e nuvem no quadro de decisões (seção 7). Também escreveu os controles de transparência e de minimização de dados da seção 3.3.
 
@@ -485,7 +485,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 [Revisar em grupo:] Trouxe o olhar de quem vai usar o sistema, e as jornadas deixaram a proposta mais humana e fácil de entender. Ter encontrado a informação de que o Desenrola acabou salvou o trabalho de um erro sério. Como sugestão, achamos que vale estudar um pouco mais como o Open Finance funciona por dentro, porque é uma pergunta provável na arguição, e manter o hábito de sempre conferir se a informação ainda vale na data de hoje.
 
-### 8.3 [Nome do Integrante 3] — Ciência de Dados
+### 8.3 Cauã Martins Aziago — Ciência de Dados
 
 **Papel no projeto:** pesquisou como identificar sites e contas de apostas ilegais sem vigiar a população e defendeu duas decisões importantes da proposta: o modelo só organiza a fila para um analista humano revisar (nunca bloqueia sozinho), e o sistema não dá "nota de vulnerabilidade" para ninguém, para que os dados não sejam usados para vender crédito. Escreveu a seção 2.3 (Ciência de Dados), os riscos 3 e 7 da matriz, o controle de teste de viés (seção 3.3) e a tabela de indicadores (seção 6.1).
 
@@ -514,7 +514,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 [Revisar em grupo:] Foi firme nas decisões éticas, e isso deixou a análise ética do trabalho mais forte e coerente. Como sugestão, achamos que vale treinar a explicação de por que o banco analisa só quem recebe o Pix e não quem paga, porque é o ponto mais delicado da proposta. Também sugerimos começar pelo Python e pela análise de dados antes de partir para modelos, para ter uma base sólida.
 
-### 8.4 [Nome do Integrante 4] — Cibersegurança
+### 8.4 Gabriel Plácido da Silva — Cibersegurança
 
 **Papel no projeto:** pesquisou os golpes que surgiram com o fim das apostas (falso resgate de saldo, sites que imitam o governo e falsas casas de aposta) e mostrou ao grupo que a própria lista de bloqueio também é um alvo: se alguém mudar a lista, pode derrubar um site legítimo ou liberar um golpe. Escreveu a seção 2.3 (Cibersegurança), a seção 2.4 (o que a tecnologia não resolve), os riscos 5, 6 e 9 da matriz, o controle de segurança (seção 3.3) e as seções 4 (acessibilidade) e 5 (sustentabilidade).
 
