@@ -548,7 +548,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 ## 9. Referências
 
-> Todas as fontes abaixo foram publicadas a partir de novembro de 2024, exceto leis e normas, citadas pela versão vigente.
+> Todas as fontes abaixo foram publicadas a partir de novembro de 2024, exceto leis e normas.
 
 - NSC Total. *Endividamento das famílias bate o sexto recorde consecutivo e atinge 82% dos lares em julho*. 2026. https://www.nsctotal.com.br/economia/endividamento-familias-recorde-julho-2026-brasil
 - Fenacon. *CNC: inadimplência e endividamento das famílias brasileiras recuam em setembro*. 2026. https://fenacon.org.br/noticias/cnc-inadimplencia-e-endividamento-das-familias-brasileiras-recuam-em-setembro/
