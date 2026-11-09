@@ -4,11 +4,10 @@
 
 | Nome completo | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
-| Gabriell Dos Santos Turuda Barbosa | gabriellturuda02-jpg | Engenharia de Dados (Painel de Dívidas) | 47964901 |
 | Cauã Martins Aziago | cauaaziago20-creator | Engenharia de Dados (Painel de Dívidas) | 48100170 |
+| Gabriell Dos Santos Turuda Barbosa | gabriellturuda02-jpg | Engenharia de Dados (Painel de Dívidas) | 47964901 |
 | Gabriel Plácido da Silva| placidogabriel788-glitch | Cibersegurança | 47770511 |
-
+| Valter Geronimo da Silva Junior | Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
 
@@ -183,7 +182,7 @@ flowchart LR
 
 ### 2.3 O trabalho de cada área
 
-#### Engenharia de Dados — Hub de Listas (Valter)
+#### Engenharia de Dados — Hub de Listas (Valter Geronimo da Silva Junior)
 
 É o coração da proposta: transformar uma operação manual de ofícios e planilhas num **produto de dados** com prazo, qualidade e rastreabilidade.
 
@@ -197,7 +196,7 @@ flowchart LR
 - **Distribuição:** gera a zona RPZ incremental (IXFR) assinada com TSIG para operadoras e a API/arquivo incremental assinado para bancos. Recebe os **recibos de aplicação** e mede, por consumidor, o atraso entre publicação e aplicação.
 - **SLAs:** publicação em até 15 minutos após aprovação; disponibilidade da API de 99,9%; remoção da lista em até 1 hora quando uma contestação for aceita.
 
-#### Engenharia de Dados — Painel Minhas Dívidas ([Integrante 2])
+#### Engenharia de Dados — Painel Minhas Dívidas (Cauã Martins Aziago)
 
 - **Integração com Open Finance (fase 2):** o Painel não pode ser receptor de dados sozinho, porque só instituições autorizadas participam do ecossistema. Proposta: uma **instituição financeira pública participante atua como receptora**, sob contrato que proíbe qualquer uso comercial dos dados (sem oferta de crédito, sem modelagem para venda). Integração no padrão de segurança FAPI exigido pelo ecossistema.
 - **Integração com Registrato (fase 1):** o cidadão compartilha o relatório pela Central de Autorizações do Banco Central ou faz o upload do relatório. O pipeline extrai e normaliza as operações (tipo, credor, saldo, atraso).
@@ -458,7 +457,7 @@ Somos alunos do primeiro ano de Análise e Desenvolvimento de Sistemas (ADS). Ca
 
 [Revisar em grupo:] Foi quem mais pesquisou sobre como o bloqueio de sites funciona na prática, e o diagrama ajudou todo mundo a entender a proposta. Como sugestão, achamos que vale treinar a explicação do diagrama em voz alta antes da arguição, porque é a parte que o professor mais deve perguntar. Também sugerimos começar pelo SQL antes de partir para ferramentas maiores, já que quase tudo em Engenharia de Dados depende dele.
 
-### 8.2 [Nome do Integrante 2] — Engenharia de Dados (Painel Minhas Dívidas)
+### 8.2 Cauã Martins Aziago — Engenharia de Dados (Painel Minhas Dívidas)
 
 **Papel no projeto:** pesquisou os dados de endividamento das famílias (Peic/CNC), o Registrato, o Open Finance e o Novo Desenrola, e descobriu que o programa tinha perdido a validade em agosto de 2026, o que mudou o desenho do Painel. Montou as jornadas do usuário (Dona Marta e Rafael) e a ideia de juntar as dívidas da pessoa numa só tela. Escreveu as seções 1.1 (quem é afetado), 1.3 (o que já existe), 2.1 (a solução do ponto de vista do usuário), 2.3 (Engenharia de Dados – Painel) e a tabela de LGPD (seção 3.4).
 
