@@ -1,6 +1,6 @@
 # Saída Segura: uma plataforma de dados para fechar o caminho do dinheiro das apostas ilegais e abrir o caminho de saída das dívidas
 
-## Integrantes
+## Integrantes 
 
 | Nome completo | GitHub | Área de carreira | RGM |
 |---|---|---|---|
