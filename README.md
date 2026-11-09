@@ -521,7 +521,7 @@ Foi firme nas decisões éticas, e isso deixou a análise ética do trabalho mai
 |---|---|---|
 | Lógica de programação | Técnica | Parcial (vista no primeiro semestre) |
 | Fundamentos de redes (IP, DNS, o que é um domínio) | Técnica | Não |
-| Fundamentos de segurança da informação (confidencialidade, integridade, disponibilidade) | Técnica | Parcial (estudou para este trabalho) |
+| Fundamentos de segurança da informação (confidencialidade, integridade, disponibilidade) | Técnica | Parcial |
 | Reconhecer golpes e sites falsos (phishing) | Técnica | Parcial |
 | Noções de criptografia e senhas seguras | Técnica | Não |
 | Linux básico (terminal) | Técnica | Não |
