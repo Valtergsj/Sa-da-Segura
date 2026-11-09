@@ -9,7 +9,7 @@
 | Gabriel Plácido da Silva | @placidogabriel788-glitch | Cibersegurança | 47770511 |
 | Valter Geronimo da Silva Junior | @Valtergsj | Engenharia de Dados (Hub de Listas) | 47807458 |
 
-**Dossiê:** 3 — Endividamento e o fim das apostas online
+**Dossiê:** 3 — Endividamento e o fim das apostas onlin
 
 **Recorte:** ex-apostadores e seus familiares com renda de até 5 salários mínimos, na etapa pós-proibição (a partir da MP nº 1.394/2026). A solução cobre dois momentos dessa etapa: (1) impedir que essas pessoas caiam no mercado ilegal e nos golpes que surgiram com o fim das apostas, atacando o lado de quem recebe o dinheiro (domínios e recebedores de Pix), e (2) dar a elas uma visão consolidada das próprias dívidas, com caminho para renegociar e para pedir ajuda em saúde mental.
 
