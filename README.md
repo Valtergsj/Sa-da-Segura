@@ -491,7 +491,7 @@ Trouxe o olhar de quem vai usar o sistema, e as jornadas deixaram a proposta mai
 | Competência que a solução exige | Técnica ou comportamental | Já tenho? |
 |---|---|---|
 | Lógica de programação | Técnica | Parcial (vista no primeiro semestre) |
-| Python básico | Técnica | Não |
+| Python básico | Técnica | sim |
 | Estatística básica (média, mediana, porcentagem, gráficos) | Técnica | Parcial (vista no ensino médio) |
 | Análise de dados com planilhas | Técnica | Parcial |
 | Análise de dados com Python (pandas) | Técnica | Não |
