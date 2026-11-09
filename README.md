@@ -11,7 +11,7 @@
 
 **Dossiê:** 3 — Endividamento e o fim das apostas online
 
-**Recorte:** ex-apostadores e seus familiares com renda de até 5 salários mínimos, na etapa pós-proibição (a partir da MP nº 1.394/2026). A solução cobre dois momentos dessa etapa: (1) impedir que essas pessoas caiam no mercado ilegal e nos golpes que surgiram com o fim das apostas, atacando o lado de quem recebe o dinheiro (domínios e recebedores de Pix), e (2) dar a elas uma visão consolidada das próprias dívidas, com caminho para renegociar e para pedir ajuda em saúde mental
+**Recorte:** ex-apostadores e seus familiares com renda de até 5 salários mínimos, na etapa pós-proibição (a partir da MP nº 1.394/2026). A solução cobre dois momentos dessa etapa: (1) impedir que essas pessoas caiam no mercado ilegal e nos golpes que surgiram com o fim das apostas, atacando o lado de quem recebe o dinheiro (domínios e recebedores de Pix), e (2) dar a elas uma visão consolidada das próprias dívidas, com caminho para renegociar e para pedir ajuda em saúde mental.
 
 *Por que este recorte:* a faixa de até 5 salários mínimos é a mesma usada pelo Novo Desenrola Brasil – Famílias (MP nº 1.355/2026), programa de renegociação que terminou em agosto de 2026. Usar o mesmo critério deixa o Painel pronto para se ligar a um novo programa público de renegociação, quando o governo criar outro. E a etapa pós-proibição é onde o problema mudou de forma: o mercado regulado acabou, mas o ilegal e os golpes cresceram. Esse é o ponto em que a Engenharia de Dados, área central do grupo, faz mais diferença, porque o gargalo hoje é mover listas e dados entre governo, bancos e operadoras com rapidez e confiança.
 
