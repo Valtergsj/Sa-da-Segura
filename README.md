@@ -2,7 +2,7 @@
 
 ## Integrantes 
 
-| Nome completo | GitHub | Área de carreira | RGM | 
+| Nome completo | GitHub | Área de carreira | RGM |  
 |---|---|---|---|
 | Cauã Martins Aziago | @cauaaziago20-creator | Ciência de Dados | 48100170 |
 | Gabriell Dos Santos Turuda Barbosa | @gabriellturuda02-jpg | Engenharia de Dados (Painel de Dívidas) | 47964901 |
